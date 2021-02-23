@@ -1,0 +1,28 @@
+{
+  "name": "@dotdevjs/nx-lerna",
+  "version": "0.0.1",
+  "description": "Workspace dist fix ",
+  "main": "index.js",
+  "bin": {
+    "nx-lerna-dist": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotdevjs/nx-lerna.git"
+  },
+  "keywords": [
+    "lerna",
+    "nrwl",
+    "nx",
+    "dotdev"
+  ],
+  "author": "Iv Po <me@dotdev.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dotdevjs/nx-lerna/issues"
+  },
+  "homepage": "https://github.com/dotdevjs/nx-lerna#readme"
+}
