@@ -23,7 +23,7 @@
     "dotdev"
   ],
   "author": "Iv Po <me@dotdev.ru>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/dotdevjs/nx-lerna/issues"
   },
