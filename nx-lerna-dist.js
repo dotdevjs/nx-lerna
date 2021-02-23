@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const workspaceConfigPath = path.join(process.cwd(), '..', 'workspace.json');
+const workspaceConfigPath = path.join(process.cwd(), 'workspace.json');
 if (!fs.existsSync(workspaceConfigPath)) {
   console.log(`Invalid workspaceConfigPath ${workspaceConfigPath}`);
   process.exit(1);
