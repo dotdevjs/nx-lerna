@@ -1,6 +1,6 @@
 {
   "name": "@dotdevjs/nx-lerna",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Workspace dist fix ",
   "main": "index.js",
   "bin": {
