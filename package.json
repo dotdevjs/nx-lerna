@@ -4,7 +4,7 @@
   "description": "Workspace dist fix ",
   "main": "index.js",
   "bin": {
-    "nx-lerna-dist": "./index.js"
+    "nx-lerna-dist": "./nx-lerna-dist.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
