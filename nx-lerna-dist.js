@@ -1,9 +1,9 @@
-// #!/usr/bin/env node
+#!/usr/bin/env node
 
 const fs = require('fs');
 const path = require('path');
 
-const workspaceConfigPath = path.join(__dirname, '..', 'workspace.json');
+const workspaceConfigPath = path.join(process.cwd(), '..', 'workspace.json');
 if (!fs.existsSync(workspaceConfigPath)) {
   console.log(`Invalid workspaceConfigPath ${workspaceConfigPath}`);
   process.exit(1);
