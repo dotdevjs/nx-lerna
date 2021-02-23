@@ -6,9 +6,11 @@
   "bin": {
     "nx-lerna-dist": "./nx-lerna-dist.js"
   },
+  "publishConfig": {
+    "registry": "https://npm.local.dotdev.ru"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish": "npm publish --public --registry=https://npm.local.dotdev.ru"
   },
   "repository": {
     "type": "git",
