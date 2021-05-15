@@ -16,6 +16,9 @@ const version = config.version || 1;
 Object.keys(config.projects).forEach((project) => {
   const projectConfig = config.projects[project];
   const keyName = version === 1 ? 'architect' : 'targets';
+  if (!projectConfig[keyName].hasOwnProperty('build')) {
+    return;
+  }
   const build = projectConfig[keyName].build.options || {};
 
   if (!build.outputPath) {

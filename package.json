@@ -1,10 +1,10 @@
 {
   "name": "@dotdevjs/nx-lerna",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Workspace dist fix ",
   "main": "index.js",
   "bin": {
-    "nx-lerna-dist": "./nx-lerna-dist.js"
+    "nx-lerna": "./nx-lerna-dist.js"
   },
   "publishConfig": {
     "registry": "https://npm.local.dotdev.ru"
